@@ -14,6 +14,9 @@
 - @todo:  
   
  ## xsession desktop `dwm.desktop`
+ 
+ `/usr/share/xsession/dwm.desktop`
+ 
  ```
  [Desktop Entry]  
 Encoding=UTF-8  
