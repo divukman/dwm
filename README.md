@@ -2,6 +2,49 @@
   
  DWM  https://suckless.org/
   
+  
+## Installation
+
+### Dependencies
+
+#### Arch
+```
+sudo pacman -S base-devel libx11 libxft libxinerama freetype2 fontconfig
+```
+
+#### Debian
+```
+sudo apt install build-essential libx11-dev libxft-dev libxinerama-dev libfreetype6-dev libfontconfig1-dev
+```
+
+### Compile and install
+```
+mkdir .suckless
+cd .suckless
+
+git clone https://git.suckless.org/dwm
+git clone https://git.suckless.org/st
+git clone https://git.suckless.org/dmenu
+
+cd .suckless
+
+cd dwm
+make
+sudo make clean install
+cd..
+
+cd st
+make
+sudo make clean install
+cd ..
+
+cd dmenu
+make
+sudo make clean install
+
+cd
+```
+  
 ## Patches  
   
 | patch | url  |
