@@ -1,6 +1,6 @@
 # DWM Configuration  
  
-[DWM]([https://www.google.com](https://suckless.org/))
+[DWM](https://suckless.org/)
   
   
 ## Installation
