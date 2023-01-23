@@ -1,6 +1,6 @@
 # DWM Configuration  
-  
- DWM  https://suckless.org/
+ 
+[DWM]([https://www.google.com](https://suckless.org/))
   
   
 ## Installation
@@ -94,3 +94,13 @@ Type=XSession
 | volumeicon | $ sudo pacman -S volumeicon    | volumeicon
 
 
+
+## Resources
+- https://suckless.org/
+- https://wiki.archlinux.org/title/dwm
+- https://wiki.debian.org/Dwm
+- https://wiki.gentoo.org/wiki/Dwm
+- https://faun.pub/the-easiest-way-to-install-dwm-43bbf668ea83
+- http://www.danamlund.dk/dwm_setup.html
+- https://ratfactor.com/dwm
+- 
