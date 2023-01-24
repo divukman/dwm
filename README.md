@@ -95,6 +95,9 @@ Type=XSession
 | volumeicon | $ sudo pacman -S volumeicon    | volumeicon
 | feh | $ sudo pacman -S feh    | feh
 
+## Useful commands  
+
+`fc-list - list fonts` 
 
 ## Resources
 - https://suckless.org/
