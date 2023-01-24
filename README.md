@@ -78,7 +78,8 @@ Type=XSession
   #!/bin/sh
   xset -dpms # disable screen power saving settings
   xset s off # disable screen blanking
-  xsetroot -solid black # set background color to black
+  # xsetroot -solid black # set background color to black
+  feh --bg-scale /usr/share/wallpapers/Maldives/maldives.jpg # custom wallpaper
   setxkbmap -option grp:switch us,hr # set up keyboard layout as US english (or hr when Alt Gr is pressed)
   volumeicon & # show volume icon in system tray
   nm-applet & # show network applet in system tray
@@ -92,7 +93,7 @@ Type=XSession
 | network manager applet | $ sudo pacman -S network-manager-applet   | nm-applet
 | alsa utils | $ sudo pacman -S alsa-utils    | alsamixer
 | volumeicon | $ sudo pacman -S volumeicon    | volumeicon
-
+| feh | $ sudo pacman -S feh    | feh
 
 
 ## Resources
