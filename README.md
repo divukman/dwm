@@ -11,6 +11,7 @@
 ```
 sudo pacman -S base-devel libx11 libxft libxinerama freetype2 fontconfig
 ```
+`sudo pacman -S xorg-xfontsel`
 
 #### Debian
 ```
@@ -34,6 +35,11 @@ sudo make clean install
 cd..
 
 cd st
+```
+Edit the config.h and change the font to:
+`static char *font = "FreeMono:pixelsize=16:antialias=true:autohint=true";`
+
+```
 make
 sudo make clean install
 cd ..
@@ -98,6 +104,7 @@ Type=XSession
 ## Useful commands  
 
 `fc-list - list fonts` 
+`fc-match name - lsit best matching font` 
 
 ## Resources
 - https://suckless.org/
