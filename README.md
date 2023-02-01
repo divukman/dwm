@@ -90,7 +90,7 @@ Type=XSession
   setxkbmap -option grp:switch us,hr # set up keyboard layout as US english (or hr when Alt Gr is pressed)
   volumeicon & # show volume icon in system tray
   nm-applet & # show network applet in system tray
-  xcompmgr
+  xcompmgr & #for alpha transparency
   dwm # run dwm
  ```
 
