@@ -12,6 +12,7 @@
 sudo pacman -S base-devel libx11 libxft libxinerama freetype2 fontconfig
 ```
 `sudo pacman -S xorg-xfontsel`
+`sudo pacman -S xcompmgr`
 
 #### Debian
 ```
@@ -89,6 +90,7 @@ Type=XSession
   setxkbmap -option grp:switch us,hr # set up keyboard layout as US english (or hr when Alt Gr is pressed)
   volumeicon & # show volume icon in system tray
   nm-applet & # show network applet in system tray
+  xcompmgr
   dwm # run dwm
  ```
 
